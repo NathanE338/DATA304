@@ -1,1 +1,61 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "favorites" (
+	"favorite_id"	INTEGER,
+	"name_id"	INTEGER,
+	"Category"	TEXT,
+	"Favorite Item"	TEXT
+);
+INSERT INTO "favorites" VALUES (1,1,'Ice Cream','Butterscotch');
+INSERT INTO "favorites" VALUES (2,1,'Sport','Rock climbing');
+INSERT INTO "favorites" VALUES (3,1,'Pass time','Board Games!');
+INSERT INTO "favorites" VALUES (4,2,'Food','Sushi');
+INSERT INTO "favorites" VALUES (5,2,'Sport','Baseball');
+INSERT INTO "favorites" VALUES (6,2,'Hobby','Golf');
+INSERT INTO "favorites" VALUES (7,3,'Ice Cream','Oreo');
+INSERT INTO "favorites" VALUES (8,3,'Sport','Soccer');
+INSERT INTO "favorites" VALUES (9,3,'Pass time','Reading');
+INSERT INTO "favorites" VALUES (10,4,'Show','Ozark');
+INSERT INTO "favorites" VALUES (11,4,'Sport','Golf');
+INSERT INTO "favorites" VALUES (12,4,'Artist','Travis Scott');
+INSERT INTO "favorites" VALUES (13,5,'Ice Cream','Cookie Dough');
+INSERT INTO "favorites" VALUES (14,5,'Sport','Swimming');
+INSERT INTO "favorites" VALUES (15,5,'Pass time','Golfing');
+INSERT INTO "favorites" VALUES (16,6,'Ice Cream','Cookies and Cream');
+INSERT INTO "favorites" VALUES (17,6,'Sport','Lifting');
+INSERT INTO "favorites" VALUES (18,6,'Pass time','Baking');
+INSERT INTO "favorites" VALUES (19,7,'Ice Cream','Blue Raspberry');
+INSERT INTO "favorites" VALUES (20,7,'Sport','Swimming');
+INSERT INTO "favorites" VALUES (21,7,'Pass time','Gambling');
+INSERT INTO "favorites" VALUES (22,8,'Ice Cream','Strawberry');
+INSERT INTO "favorites" VALUES (23,8,'Sport','Football');
+INSERT INTO "favorites" VALUES (24,8,'Pass time','Games');
+INSERT INTO "favorites" VALUES (25,9,'Ice Cream','Cookie Dough');
+INSERT INTO "favorites" VALUES (26,9,'Artist','Travis Scott');
+INSERT INTO "favorites" VALUES (27,9,'Pass time','Watching sports (basketball, football, cricket)');
+INSERT INTO "favorites" VALUES (28,10,'Movie genre','Sciencetific/ Fiction');
+INSERT INTO "favorites" VALUES (29,10,'Color','Black');
+INSERT INTO "favorites" VALUES (30,10,'Cuisine','Japanese');
+INSERT INTO "favorites" VALUES (31,11,'Ice Cream','Butter Pecan');
+INSERT INTO "favorites" VALUES (32,11,'Sport','Basketball');
+INSERT INTO "favorites" VALUES (33,11,'Pass time','Hiking');
+COMMIT;
+
+
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "name_only_df" (
+	"name_id"	INTEGER,
+	"Name"	TEXT
+);
+INSERT INTO "name_only_df" VALUES (1,'Sage Gray');
+INSERT INTO "name_only_df" VALUES (2,'Brady Sengkhounmany');
+INSERT INTO "name_only_df" VALUES (3,'Kebba Leigh');
+INSERT INTO "name_only_df" VALUES (4,'Mateo Marneau');
+INSERT INTO "name_only_df" VALUES (5,'Jay Naidu');
+INSERT INTO "name_only_df" VALUES (6,'Greta Goss');
+INSERT INTO "name_only_df" VALUES (7,'Elias Brown');
+INSERT INTO "name_only_df" VALUES (8,'Brandon Weis');
+INSERT INTO "name_only_df" VALUES (9,'Abhi Purohit');
+INSERT INTO "name_only_df" VALUES (10,'Vu Mai');
+INSERT INTO "name_only_df" VALUES (11,'Nathan Ebbs');
+COMMIT;
 
