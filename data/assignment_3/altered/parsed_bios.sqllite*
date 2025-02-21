@@ -58,3 +58,4 @@ INSERT INTO "name_only_df" VALUES (9,'Abhi Purohit');
 INSERT INTO "name_only_df" VALUES (10,'Vu Mai');
 INSERT INTO "name_only_df" VALUES (11,'Nathan Ebbs');
 COMMIT;
+# Above is the name only table.
